@@ -6,12 +6,12 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
+  background: #0e0e0e;
+  color: #f5c518;
 }
 nav {
-  background: #222;
-  color: #fff;
+  background: #000;
+  color: #f5c518;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -25,19 +25,19 @@ nav ul li {
   margin-left: 20px;
 }
 nav ul li a {
-  color: #fff;
+  color: #f5c518;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 nav ul li a:hover {
-  color: #00bcd4;
+  color: #fff;
 }
 .hero {
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(to right, #00bcd4, #2196f3);
-  color: #fff;
+  background: linear-gradient(to right, #f5c518, #b38f00);
+  color: #000;
   animation: fadeIn 2s ease-in-out;
 }
 .hero h2 {
@@ -50,7 +50,7 @@ section {
 h2 {
   text-align: center;
   margin-bottom: 1rem;
-  color: #333;
+  color: #f5c518;
 }
 .skill-list {
   display: flex;
@@ -58,8 +58,8 @@ h2 {
   justify-content: center;
 }
 .skill-list li {
-  background: #00bcd4;
-  color: white;
+  background: #f5c518;
+  color: #000;
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -71,16 +71,17 @@ h2 {
   gap: 1rem;
 }
 .project {
-  background: white;
+  background: #1a1a1a;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(245, 197, 24, 0.2);
   animation: slideUp 1s ease;
+  color: #f5c518;
 }
 footer {
   text-align: center;
-  background: #222;
-  color: white;
+  background: #000;
+  color: #f5c518;
   padding: 1rem;
   margin-top: 2rem;
 }
